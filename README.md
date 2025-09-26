@@ -24,19 +24,5 @@ This project is based on an AVR microcontroller and demonstrates controlling LED
    - Runs a pre-programmed LED light sequence.  
    - Uses bit patterns and timing arrays for a dynamic LED animation.  
 
-## How It Works
-- **Timers & Interrupts:**  
-  - Timer 1 generates interrupts every microsecond to increment a fast counter.  
-  - Timer 3 generates interrupts every 10 ms to increment a slower counter.  
-- **PWM Logic:**  
-  - Brightness effects are implemented by comparing counters against thresholds.  
-- **Delays:**  
-  - `_delay_ms()` provides timing for Morse code and light show sequences.
 
-## Testing
-Uncomment the corresponding function calls in `main()` to test each part:
-- Part A: `led_state()`  
-- Part B: `SOS()`  
-- Part C: `glow()`  
-- Part D: `pulse_glow()`  
-- Bonus: `light_show()`  
+GRADE: 24.2/22 - 110%
