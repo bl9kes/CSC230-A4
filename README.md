@@ -2,6 +2,11 @@
 
 This project is based on an AVR microcontroller and demonstrates controlling LEDs using timers, interrupts, and pulse-width modulation (PWM). The provided skeleton code included protected "DO NOT TOUCH" sections for timer setup and global variables, while the student sections implement the assignment tasks.
 
+## This code received a grade of 24.2/22 = 110%. 
+ Produces the desired outcome as per this video.
+ - https://www.youtube.com/watch?v=rWHe6r2pI_4
+
+
 ## Features Implemented
 
 1. **`led_state(uint8_t LED, uint8_t state)`**  
@@ -23,6 +28,3 @@ This project is based on an AVR microcontroller and demonstrates controlling LED
 5. **`light_show()`** *(Bonus)*  
    - Runs a pre-programmed LED light sequence.  
    - Uses bit patterns and timing arrays for a dynamic LED animation.  
-
-
-GRADE: 24.2/22 - 110%
